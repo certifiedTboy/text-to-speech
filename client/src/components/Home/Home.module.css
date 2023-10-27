@@ -1,0 +1,55 @@
+.intro {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.intro h1 {
+  text-align: center;
+  color: #1d1e20;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88.32px;
+  letter-spacing: -3.6px;
+}
+
+h1 span {
+  background: var(--Linear, linear-gradient(90deg, #4ac7fa 0%, #e649f5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 90px;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: 88.32px;
+  /* letter-spacing: -3.6px; */
+}
+@media screen and (max-width: 500px) {
+  h1 span {
+    font-size: 50px;
+  }
+
+  .intro .desc_text {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: rgb(65, 65, 65);
+  }
+
+  .intro h1 {
+    text-align: center;
+    color: #1d1e20;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88.32px;
+    letter-spacing: -3.6px;
+  }
+}
+.intro .desc_text {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: rgb(65, 65, 65);
+}
